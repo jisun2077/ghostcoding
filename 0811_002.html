@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherit 속성알아보기</title>
+    <style>
+    div {
+        color: red;
+    }
+    h1 {
+        color: blue;
+    }
+    div span:nth-child(4) {
+        color: olive;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+    <span>Child span </span>
+        <h1>Heading Element - child</h1>
+    <p class="child">
+        child Element
+        <span class="grand-child">Grand-child</span>
+    </p>
+    <span>Child span2</span>
+    <span>Child span3</span>
+    </div>
+</body>
+</html>
