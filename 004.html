@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          ol>li {
+            background-color: olive;
+            font-size: 30px;
+        }
+        ul>li {
+            background-color: gold;
+            font-size: 12px;
+        }
+          h1 {
+            color: olive;
+            color: red;
+            color: green;
+
+        }
+    </style>
+</head>
+<body>
+      <nav>
+            <ul>
+                <li>
+                    <a href="./0811_001.html">About</a>
+                </li>
+                 <li>
+                    <a href="./0811_002.html">Product</a>
+                </li>
+                 <li>
+                    <a href="./0811_003.html">contacUs</a>
+                </li>
+                
+            </ul>
+        </nav>
+        만약 ol이나 ul의 타입을 바꿔야한다면, html type 속성을 쓰지말고,
+        CSS로 처리하도록 하는것이 웹표준이다.
+        ol의 child인 li는 gold 배경색, ul의 child인 li는 ovile 배경색으로 넣기
+
+        <ol start="10" type="A">
+            <li>Ordered List 1
+                 <ul>
+            <li><a href="#">Sub menu 1</a></li>
+            <li><a href="#">Sub menu 2</a></li>
+        </ul>
+            </li>
+            <li>Ordered List 2</li>
+            <li>Ordered List 3</li>
+        </ol>
+        <ul>
+            <li><a href="#">Sub menu 1</a></li>
+            <li><a href="#">Sub menu 2</a></li>
+        </ul>
+
+
+</body>
+</html>
