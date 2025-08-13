@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width:300px;
+            height: 250px;
+            background-color: tomato;
+            border-radius: 20px;
+            padding: 12px;
+            display: flex;
+            justify-content:spe;
+            align-items:flex-end;
+
+        }
+
+        .box2 {
+            width: 400px;
+            height: 400px;
+            outline:1px solid red;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+        }
+        .a{
+            background-color: olive;
+            width: 200px;
+            flex-grow: 1; <!--> fill container와 같은 것-->
+        }
+        .b{
+            background-color: rgb(39, 131, 149);
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Hello World
+    </div>
+    <div class="box2">
+        <div class="a">A</div>
+        <div class="b">B</div>
+
+    </div>
+</body>
+</html>

@@ -35,18 +35,19 @@ body{
 }
 
 .slogan-container p{
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
     line-height: 1;
     letter-spacing:-0.3px;
+    font-weight: regular;
 }
-.buttons{
+.link-container{
     display:flex;
     flex-direction:column; /* 버튼 2개를 세로로 배치 (가로로 하려면 row로 변경) */
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 168px;
     width: 100%; /* 버튼 전체 너비 맞춤 */
     align-items: center;           /* 버튼 사이 간격 */
 }
@@ -61,6 +62,10 @@ body{
     font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 .button2{
     width: 283px;
@@ -72,4 +77,8 @@ body{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items:  center;
+    text-decoration: none;
 }
