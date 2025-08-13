@@ -9,12 +9,67 @@ body{
     margin: 0; 
 }
 .container{
+    width: 375px;
     text-align: center;
+    flex-direction: column;
+    gap:20px;
+    /* 메인축으로의 정렬 */
+    justify-content: center;
+    align-items: center;
+    display: flex;  
 }
-h1{
+.container p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 45%;
+}
+.container img{
+    width: 90px;
+}
+
+.slogan-container img{
+    width: 276px;
+}
+
+.slogan-container p{
     margin-top: 10px;
     font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    letter-spacing:-0.3px;
 }
-img{
-    width: 95px;
+.buttons{
+    display:flex;
+    flex-direction:column; /* 버튼 2개를 세로로 배치 (가로로 하려면 row로 변경) */
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%; /* 버튼 전체 너비 맞춤 */
+    align-items: center;           /* 버튼 사이 간격 */
+}
+
+.button1{
+    width: 283px;
+    height: 42px;
+    background-color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button2{
+    width: 283px;
+    height: 42px;
+    background-color:#2C2C2C;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
