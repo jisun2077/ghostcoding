@@ -1,10 +1,18 @@
 @charset "UTF-8";
-body {
+body{
     background-color: #2C2C2C;
     color: #FFFFFF;
+    display: flex;               /* Flexbox 활성화 */
+    justify-content: center;     /* 가로 중앙 */
+    align-items: center;         /* 세로 중앙 */
+    height: 100vh;               /* 화면 높이 꽉 채우기 */
+    margin: 0; 
+}
+.container{
+    text-align: center;
 }
 h1{
-    text-align: center;
+    margin-top: 10px;
     font-size: 20px;
 }
 img{
