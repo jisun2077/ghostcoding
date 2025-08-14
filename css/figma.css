@@ -1,22 +1,32 @@
 @charset "UTF-8";
 body{
     background-color: #2C2C2C;
-    color: #FFFFFF;
-    display: flex;               /* Flexbox 활성화 */
-    justify-content: center;     /* 가로 중앙 */
-    align-items: center;         /* 세로 중앙 */
-    height: 100vh;               /* 화면 높이 꽉 채우기 */
+    color: #FFFFFF;        
+    height: 100vh;             
     margin: 0; 
+}
+.all-container {
+    min-width: 272px;
+    width: calc(100% - 100px);
+    max-width: 400px;
+    margin: 200px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 0 auto;
+
 }
 .container{
     width: 375px;
+    min-height: 100vh
     text-align: center;
     flex-direction: column;
     gap:20px;
-    /* 메인축으로의 정렬 */
     justify-content: center;
     align-items: center;
-    display: flex;  
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
 }
 .container p{
     margin-top: 10px;
@@ -31,7 +41,9 @@ body{
 }
 
 .slogan-container img{
-    width: 276px;
+    min-width:272px;
+    width:100%;
+    max-width:400px;
 }
 
 .slogan-container p{
@@ -45,15 +57,15 @@ body{
 }
 .link-container{
     display:flex;
-    flex-direction:column; /* 버튼 2개를 세로로 배치 (가로로 하려면 row로 변경) */
+    flex-direction:column;
     gap: 10px;
     margin-top: 168px;
-    width: 100%; /* 버튼 전체 너비 맞춤 */
-    align-items: center;           /* 버튼 사이 간격 */
+    width: 100%; 
+    align-items: center;  
 }
 
 .button1{
-    width: 283px;
+    width: 272px;
     height: 42px;
     background-color: #000000;
     border: none;
@@ -68,7 +80,7 @@ body{
     text-decoration: none;
 }
 .button2{
-    width: 283px;
+    width: 272px;
     height: 42px;
     background-color:#2C2C2C;
     border: 2px solid #FFFFFF;
@@ -81,4 +93,7 @@ body{
     justify-content: center;
     align-items:  center;
     text-decoration: none;
+}
+.link-container a:hover {
+    color:aqua;
 }
