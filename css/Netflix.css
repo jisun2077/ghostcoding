@@ -33,6 +33,11 @@ header{
 .header-right{
     display: flex;
     gap:10px;
+    align-items: center;
+}
+
+.select-text {
+    color:#fff;
 }
 
 select{
@@ -40,6 +45,8 @@ select{
     border-radius: 3px;
     background: transparent;
 }
+
+select
 
 .login-btn {
     background-color: red;
