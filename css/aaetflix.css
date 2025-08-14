@@ -1,0 +1,97 @@
+/*netflix.css*/
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    height: 100vh;
+}
+.background {
+    width:100%;
+    height:100vh;
+    background-image: url('../images/stylish-background-design-with-cute-monsters-standing-creepy-forest-welcome-monsters-city-celebratio/13245.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4); /* 어둡게 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header-right{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.select-text {
+    color:#fff;
+}
+
+select{
+    padding:5px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+select
+
+.login-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.main-section {
+    text-align: center;
+    margin-top: 150px;
+}
+.main-section h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0,0,15px;
+}
+.sub-text {
+    font-size: 19px;
+    margin: 20px 0;
+}
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    width: 300px;
+    font-size: 16px;
+    caret-color: rgb(255, 255, 255);
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+}
+
+form button {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
