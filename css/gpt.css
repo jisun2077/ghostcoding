@@ -1,0 +1,32 @@
+/*gpt.css*/
+.login-btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.main text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+body {
+    background-color: skyblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

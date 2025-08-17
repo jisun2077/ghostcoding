@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        :root {
+            --primary:#d81e27;
+            --title: 56px;
+
+        }
+
+        html{
+            font-size: 16px;
+        }
+
         body {
+            color:aliceblue;
+            font-size: 12px;
             /*
             background-color: rgb(169, 169, 255);
             background-image: url('./images/ghost_n2.png');
@@ -70,17 +82,32 @@
             background-repeat: no-repeat;
             background-position: right bottom;
         }
+        
+        .title {
+            color:var(--primary);
+            font-size: var(--title);
+        }
+        em{
+            font-size: lrem;
+        }
+        i{
+            font-size: 1em;
+        }
 
             
     </style>
 </head>
 <body>
+    <em>Hello, world</em>
+    <i>World</i>
+    <hr>
     <div class="thumb">
         <img src="./images/toons/kosigi-wale.jpg" alt="kosifi">
     </div>
     <div class="thumb-ir">
         <span class="blind">illust image</span>
     </div>
+    <h1 class="title"></h1>
     <section>
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi recusandae, ipsam et dolor suscipit, dolorum voluptatibus vero fugit ullam eius! Nisi vel aperiam consequatur quos incidunt iusto neque totam!
