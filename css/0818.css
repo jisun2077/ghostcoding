@@ -1,0 +1,45 @@
+. thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    background-color: #ffff;
+    border-radius: 15px;
+    overflow: hidden;
+    width:240px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 365px;
+    border: 1px solid #000000;
+}
+
+p{
+    font-size: 10px;
+    color: #717171;
+}
+
+strong{
+    font-size: 14px;
+    font-weight:bold;
+    padding-bottom: 12px;
+}
+
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tag-container li a{
+    border-radius: 28px;
+    font-size: 12px;
+    background-color:#A1A1A1;
+    padding:16px;
+    gap:10px;
+    height: 24px;
+}
