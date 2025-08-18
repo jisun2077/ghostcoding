@@ -38,7 +38,7 @@ strong{
 .tag-container li a{
     border-radius: 28px;
     font-size: 12px;
-    background-color:#A1A1A1;
+    background-color:rgba(161,161,161,0.24);
     padding:16px;
     gap:10px;
     height: 24px;
