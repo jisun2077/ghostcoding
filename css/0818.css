@@ -33,6 +33,8 @@ strong{
     padding: 0;
     margin: 0;
     list-style: none;
+    padding-top: 12px;
+    text-align: center;
 }
 
 .tag-container li a{
