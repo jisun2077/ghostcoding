@@ -68,3 +68,12 @@ strong{
 .container .contents{
     padding: 12px;
 }
+
+.container .tag-container a::hover {
+    background-color: #488ADA;
+}
+
+.container .tag-container a::before {
+    content:"#";
+    margin: 0 -5px;
+}

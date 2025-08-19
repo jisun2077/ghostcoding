@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .tBox1 th[scope="row"]{
+            background-color: aliceblue;
+        }
+        .tBox1 th[scope="col"]{
+            background-color: rgb(12, 131, 236);
+            color:#fff;
+        }
+        .tBox1 td {
+            text-align:center;
+        }
+    </style>
+
+</head>
+<body>
+    <table class="tBox1">
+    <caption>기본정보</caption>
+            <colgroup>
+                <col style="width:120px">
+                <col style="width:100px">
+                <col style="width:calc((100% - 320px) / 2)">
+                <col style="width:100px">
+                <col>
+            </colgroup>
+        <tr>
+            <td rowspan="4">사진</td>
+            <td>이름</td>
+            <td>곽지선</td>
+            <td>생년월일</td>
+            <td>2000.08.31</td>
+        </tr>
+
+         <tr>
+            <td>전화</td>
+            <td>010-2559-5244</td>
+            <td>이메일</td>
+            <td>jisun2077523@naver.com</td>
+        </tr>
+
+         <tr>
+            <td>주소</td>
+            <td colspan="3">마조로 15가길 23 104동 608호</td>
+        </tr>
+
+         <tr>
+            <td>GitHub</td>
+            <td>https://github.com/jisun2077</td>
+            <td>Portfolio</td>
+            <td>https://hongdev.dev</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
