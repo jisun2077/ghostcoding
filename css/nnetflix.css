@@ -146,6 +146,7 @@ form button{
 
 .container:hover{
     scale: 1.2;
+    background:linear-gradient(135deg, #3d206c, #231d84); 
 }
 
 .txt {
