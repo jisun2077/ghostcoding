@@ -21,13 +21,6 @@ a {
   overflow: hidden;
 }
 
-select,
-button,
-input {
-  border: none;
-  background-color: transparent;
-  color: inherit;
-}
 
 button {
   cursor: pointer;
@@ -63,4 +56,17 @@ table{
   border-spacing: 0;
   table-layout: fixed;
   overflow-wrap: break-word;
+}
+
+fieldset{
+  border:none;
+}
+
+.blind, legend{
+  position: absolute;
+  clip:rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
 }

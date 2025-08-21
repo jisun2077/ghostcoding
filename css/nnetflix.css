@@ -178,7 +178,7 @@ ol{
   gap:10px;
   list-style: none;
   padding:0
-  margin:10px;
+  margin: 10px;
 }
 
 ol li{
@@ -187,10 +187,10 @@ ol li{
 
 ol li i{
   position: absolute;
-  bottom:-20px;
+  bottom:-22px;
   left:-10px;
-  font-style: nomal;
-  font-weight: bold;
+  font-style:normal;
+  font-weight: 700;
   font-size: 100px;
   color: black;
   padding: 5px 10px;
@@ -205,9 +205,14 @@ ol li a img{
   border-radius: 8px;
 }
 
+ol li:hover{
+  scale:1.1;
+}
+
 .reasons-contanier{
   width: 290px;
   height: 335px;
+  margin: 12px 0px 0px 16px;
 }
 
 .reasons{
@@ -221,7 +226,6 @@ ol li a img{
   background: linear-gradient(to top right, #1c1c40, #1c1c1c);
   padding: 20px;
   border-radius: 12px;
-  margin: -12px 0px 0px -16px;
 }
 
 .reason-box h4 {
@@ -231,5 +235,6 @@ ol li a img{
 .reason-box p {
   font-size: 0.9rem;
   color: #ccc;
+  margin: 10px 0;
 }
 
