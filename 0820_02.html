@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before after</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            background-color: #fff;
+            width: 400px;
+            height: 600px;
+            margin: 50px auto;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+        }
+        .line-container{
+            text-align: center;
+            position: relative;
+        }
+        .line-container::before,
+        .line-container::after {
+            content:'';
+            width: 170px;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top:50%;
+            translate: 0 -50%;
+            background-color: tomato;
+        }
+
+        .lint-container strong{
+            background-color: #fff;
+            padding:0 10px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .line-container::before {
+            left:8px;
+        }
+
+        .line-container::after {
+            right:8px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="line-container">
+            <span class="line-left"></span> 
+            <span class="line-right"></span> 
+            <strong>또는</strong>
+        </div>
+    </div>
+    
+</body>
+</html>

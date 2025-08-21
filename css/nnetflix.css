@@ -4,6 +4,7 @@ body {
     color: white;
     position: relative;
     height: 100vh;
+    background-color: #000;
 }
 
 .background {
@@ -157,3 +158,78 @@ form button{
   display: flex;
   flex-direction: column;
 }
+
+
+/*8월 20일*/
+
+.bestview-contents{
+  max-width: 1200px;
+  margin:40px auto;
+  padding:20px;
+}
+
+h3{
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+ol{
+  display: flex;
+  gap:10px;
+  list-style: none;
+  padding:0
+  margin:10px;
+}
+
+ol li{
+  position: relative;
+}
+
+ol li i{
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  font-style: nomal;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+  line-height: 1;
+}
+
+ol li a img{
+  display:block;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.reasons-contanier{
+  width: 290px;
+  height: 335px;
+}
+
+.reasons{
+  display:flex;
+  gap:20px;
+  margin-top: 40px;
+}
+
+.reason-box{
+  flex:1;
+  background: linear-gradient(to top right, #1c1c40, #1c1c1c);
+  padding: 20px;
+  border-radius: 12px;
+  margin: -12px 0px 0px -16px;
+}
+
+.reason-box h4 {
+  font-size: 24px;
+}
+
+.reason-box p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
