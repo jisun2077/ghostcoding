@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <style>
+        body{
+            background-color: #d9f0f3;
+        }
         .search-input{
             display: flex;
             flex-direction: column;
@@ -16,6 +19,7 @@
             font-size: 30px;
             width: 400px;
             height: 200px;
+            box-shadow: 4px 4px rgba(0,0,0,0.3);
         }
         
         .search-boxes{
@@ -51,6 +55,7 @@
             text-align: right;
             font-size: 15px;
         }
+
     </style>
 </head>
 <body>
@@ -59,7 +64,7 @@
         <div class="search-input">
             <div class="search-boxes">
             <input type="search" class="search" placeholder="Search Here" required> 
-            <button type="submit" class="submit">search</button>
+            <button type="submit" class="submit">Search</button>
             </div>
             <a href="#">Advanced Search</a>
         </div>
